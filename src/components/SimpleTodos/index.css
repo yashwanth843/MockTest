@@ -47,3 +47,32 @@
 .todos-list {
   padding-left: 0px;
 }
+
+.searchInputContainer {
+  display: flex;
+}
+
+.searchInput {
+  width: 200px;
+  height: 30px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  margin-right: 2px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .searchInput {
+    width: 250px;
+  }
+}
+
+.addButton {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(82, 167, 248);
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

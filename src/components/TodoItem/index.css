@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .title {
@@ -42,4 +46,23 @@
     padding-right: 16px;
     margin-left: 32px;
   }
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.changeTodo {
+  width: 250px;
+  height: 30px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  margin-right: 2px;
+  outline: none;
+  border: none;
 }
